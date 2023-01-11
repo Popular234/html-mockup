@@ -6,17 +6,16 @@
 a{
     padding: 2%;
     display: inline;
-    margin-top: 2%;
+    margin-top: 1.5%;
     float: right;
 }
 #aright{
     margin-right: 3%;
- 
 }
-nav{
+#yup{
     border-bottom: solid black 4px;
 }
-h1{
+#head{
     font-weight: bold;
     text-align: center;
     font-size: 30px;
@@ -29,23 +28,56 @@ h1{
 #box{
     margin-top: 50px;
     background-color: grey;
-    height: 550px;
-    width: 550px;
+    height: 585px;
+    width: 600px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 }
-#hero-image {
+.hero-image {
     background-image: url('https://via.placeholder.com/500');
-    height: 500px;
-    width: 500px;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-size: contain;
+    position: relative;
+    top: 60px;
+    left: 50px;
 }
-.hero-text {
+#lang{
+    width: 600px;
+    display: inline-block;
+    margin-left: 5%;
+}
+#table{
+    width: 600px;
+    display: inline-block;
+}
+#thed{
     text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 60px;
+    margin-top: 50px;
+}
+#dlhed{
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 60px;
+    margin-top: 50px;
+}
+dl{
+    margin-left: 10%;
+    margin-top: 50px;
+}
+dt{
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 60px;
+}
+dd{
+    font-size: 25px;
+    margin-left: 15%;
+    margin-top: .5%;
 }
